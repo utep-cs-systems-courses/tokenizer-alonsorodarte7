@@ -1,7 +1,6 @@
 #ifndef _TOKENIZER_
 #define _TOKENIZER_
 
-
 /* Return true (non-zero) if c is a whitespace characer
    ('\t' or ' ').  
    Zero terminators are not printable (therefore false) */
@@ -44,4 +43,5 @@ void print_tokens(char **tokens);
 /* Frees all tokens and the vector containing themx. */
 void free_tokens(char **tokens);
 
+short find_len(char *str);
 #endif
