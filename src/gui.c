@@ -50,15 +50,6 @@ void main()
 	    }
 	}
     }
-  /**
-  char str [] = "red hot chili peppers\0";
-  char *ptr = &str[0];
-  char **tokenized = tokenize(ptr);
-  List *root = init_history();
-  add_history(root,ptr);
-  print_history(root);
-  print_tokens(tokenized);
-  **/
 }
 
 
